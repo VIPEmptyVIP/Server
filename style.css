@@ -1,0 +1,94 @@
+body {
+	background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1NiIgaGVpZ2h0PSIxMDAiPgo8cmVjdCB3aWR0aD0iNTYiIGhlaWdodD0iMTAwIiBmaWxsPSIjZjhkMjAzIj48L3JlY3Q+CjxwYXRoIGQ9Ik0yOCA2NkwwIDUwTDAgMTZMMjggMEw1NiAxNkw1NiA1MEwyOCA2NkwyOCAxMDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZjYyOSIgc3Ryb2tlLXdpZHRoPSIyIj48L3BhdGg+CjxwYXRoIGQ9Ik0yOCAwTDI4IDM0TDAgNTBMMCA4NEwyOCAxMDBMNTYgODRMNTYgNTBMMjggMzQiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZTUwMyIgc3Ryb2tlLXdpZHRoPSIyIj48L3BhdGg+Cjwvc3ZnPg==");
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+}
+img {	
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-box-shadow: 0px 0px 40px 10px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 40px 10px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 40px 10px rgba(0,0,0,0.75);
+	border-radius: 10px;
+	opacity: 0.7;
+	transition: 0.4s;
+	margin-top: 20px;
+}
+
+img:hover {
+	opacity: 1;
+}
+p {
+	font-size: 20px;
+}
+
+iframe {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	-webkit-box-shadow: 0px 0px 40px 10px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 40px 10px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 40px 10px rgba(0,0,0,0.75);
+	border-radius: 10px;
+}
+h1, h2, h3{
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	text-shadow:10px 10px 15px black;
+}
+.pwa{
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	text-shadow:10px 10px 15px black;
+}
+.pr{
+	display: inline-block;
+	padding:10px;
+	width: 14%;
+	border: 1px solid black;
+	border-radius: 15px;
+	vertical-align: top;
+	margin:10px;
+	min-width: 250px;
+	box-shadow:0px 0px 15px black;
+	background-color: rgb(255 255 255 / 35%);
+}
+.buy{
+	color: white;
+	background: linear-gradient(45deg, red, darkblue);
+	display: inline-block;
+	margin: 25px;
+	width: 80%;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 20px;
+	box-shadow:0px 0px 15px black;
+	border: 1px solid black;
+	animation: gradient 10s infinite;
+	background-size: 400% 400%;
+	transition: 0.5s;
+}
+.buy:hover{
+	background: black;
+	
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
